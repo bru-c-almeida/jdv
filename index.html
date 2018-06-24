@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jogo.da.Velha</title>
+
+		<!-- meu css -->
+		<link rel="stylesheet" type="text/css" href="edit.css">
+
+		<!-- meu javascript -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<!-- icones utilizados -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div id="jogo">
+			<i id="cat" class="fab fa-github-alt"></i>
+
+			<h1>Jogo da Velha</h1>
+			<p>
+				Jogue contra a inteligência artificial. Clique em qualquer um dos 9 espaços do grid mostrado na tela para iniciar e tente vencer.
+			</p>
+
+			<h2>Regras</h2>
+			<p id="regras">	
+				Vence quem conseguir formar primeiro uma reta vertical, horizontal ou diagonal.
+			</p>	
+		</div>
+		
+		<div id="gridtransp">
+
+			<div id="game">
+           		<div class="linha">
+                	<div class="data" id="dt1"></div>
+                	<div class="data" id="dt2"></div>
+                	<div class="data" id="dt3"></div>
+            	</div>
+
+            	<div class="linha">
+                	<div class="data" id="dt4"></div>
+                	<div class="data" id="dt5"></div>
+                	<div class="data" id="dt6"></div>
+            	</div>
+
+           		<div class="linha">
+                	<div class="data" id="dt7"></div>
+                	<div class="data" id="dt8"></div>
+                	<div class="data" id="dt9"></div>
+            	</div>
+            </div>
+
+        </div>
+
+		<div id="contadortransp">
+			<div id="contador">
+				<h2 id="vit" style="padding: 0px; margin: 0px">Vitórias</h2>
+				<h2 id="numvit"> 0 </h2>
+				<h2 id="der" style="padding: 0px; margin: 0px">Derrotas</h2>
+				<h2 id="numder"> 0 </h2>
+			</div>
+		</div>
+	</body>
+</html>

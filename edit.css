@@ -1,0 +1,95 @@
+body {
+	background: url(wallpaper.jpg);
+	background-size: cover;
+}
+
+#jogo {
+	background: black;
+	color: white;
+	height: 450px;
+	width: 200px;
+	border-radius: 25px;
+	opacity: 0.65;
+	text-align: center;
+	float: left;
+}
+
+#cat {
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+#regras {
+	font-size: 20px;
+}
+
+#gridtransp {
+	height: 400px;
+	width: 400px;
+	padding-left: 60px;
+	float: left;
+}
+
+#game {
+	margin-top: 72px;
+	margin-left: 40px;
+	background-image: url("table.png");
+	height: 300px;
+	width: 300px;
+	opacity: 0.65;
+    z-index: :100;
+}
+
+.linha {
+    height: 100px;
+}
+
+.data {
+	float: left;
+    width: 50px;
+    height: 50px;
+	border-radius: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 22px;
+}
+.dataClicada {
+	float: left;
+    width: 50px;
+    height: 50px;
+	border-radius: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 22px;
+}
+
+.data:hover{
+	background-color: black;
+}
+
+#contadortransp {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding-top: 120px;
+	padding-left: 40px;
+}
+
+#contador {
+	background: black;
+	color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 25px;
+	opacity: 0.65;
+	text-align: center;
+}
+
+#vit {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#der {
+	padding-bottom: 50px;
+}
